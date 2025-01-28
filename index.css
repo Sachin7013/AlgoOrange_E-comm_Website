@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+        font-family: "Poppins", serif;
+        
+      }
+      
+      
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav {
+     flex: 1;
+   text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+   
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 30px;
+    transition: background 0.5s;
+
+}
+
+.btn:hover {
+    background: #b50000;
+}
+.header{
+    background: radial-gradient(#fff,#a79f9f);
+}
+.header .row {
+    margin-top: 70px;
+}
+
+.categories {
+    margin: 10px 0;
+}
+
+.col-3 {
+    flex-basis: 20%;
+    min-width: 10px;
+    margin-bottom: 10px;
+}
+
+.col-3 img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover;  
+}
+
+.small-categories{
+    max-width: 1500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-4 img {
+    width: 100%;
+    
+}
+.col-4 img {
+    width: 300px;  
+    height: 400px; 
+    object-fit: cover; 
+  }
+.title{
+    text-align: center;
+    margin: 80px auto 80px;
+    position: relative;
+    line-height: 30px;
+    color: #302e2e;
+}
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+h4{
+    color: #555;
+    font-size: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+
+/*-------------Offers--------------------------------*/
+
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 30px o;
+}
+.col-2 .offer-img{
+    padding: 50px;
+}
+small{
+    color: #555;
+}
+
+/*-------------Brands--------------------------------*/
+
+.col-5{
+    width: 160px;
+
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+}
+  /*  filter: grayscale(100%) ;
+
+}
+.col-5 img:hover{
+    filter: grayscale(0%);
+} */
+
+/*----------------- Single-product---------------------*/
+
+
+.Single-product{
+    margin-top: 50px;
+
+}
+.Single-product .col-2 img{
+    padding: 0;
+
+}
+.Single-product .col-2{
+    padding: 80px;
+}
+.Single-product h4{
+    margin: 20px o;
+    font-size: 22px;
+    font-weight: bold;
+}
+.Single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+.Single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b ;
+}
+
+input:focus{
+    outline: none;
+}
+
+.row-2 {
+    padding-top: 20px; 
+    padding-bottom: 50px; 
+}
+
+/*----------------- cart items---------------------*/
+
+
+.small-container {
+    width: 100%;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+
+.cart-page {
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+th, td {
+    padding: 30px; 
+    text-align: center;
+    border-bottom: 1px solid #ddd; 
+}
+
+
+.cart-info {
+    display: flex;
+    align-items: center;
+}
+.cart-info img {
+    width: 200px; 
+    height: auto;
+    margin-right: 240px;
+}
+
+.cart-info div {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="number"] {
+    width: 50px; 
+    padding: 10px;
+    text-align: center;
+}
+
+
